@@ -19,7 +19,7 @@
       <script src="/assets/application-37a4d6365e45dfb33c50d2029ddf067348e29972684004e7201c223f23b38278.js"></script>
       <link rel="shortcut icon" type="image/x-icon" href="/favicon_alx.ico" />
       <meta name="csrf-param" content="authenticity_token" />
-<meta name="csrf-token" content="y2zuUDY9i9zE3uY8pK0YWB4Dg_1qNJkI2tcr8EgVDigdH8xPSdnShNeW0NmiU-glzMxZwOaFJXn-JkWzAlxY4A" />
+<meta name="csrf-token" content="TLi8zMglBZuX2tQwvHJGIyOR7Jydr_lv3iZ7r9QIBGeleFELV_10WvLmtD4yZ8lev4rCP1Mq0g2Damr8PeRGmA" />
 
       <link rel="apple-touch-icon" href="/apple-touch-icon_alx.png">
 
@@ -75,7 +75,7 @@
       <span class="bg-white">- OR -</span>
     </div>
 
-  <form class="sm-gap" id="new_user" action="/auth/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="my3AbWA3W1G9Mo9xVJKe1nfkQGPlDvAlQ3SAJN8TLorlHlsGo7v-RUnLjLpNMgfMcAQYv98t92m7wTIU2AHZLw" autocomplete="off" />
+  <form class="sm-gap" id="new_user" action="/auth/sign_in" accept-charset="UTF-8" method="post"><input type="hidden" name="authenticity_token" value="sL1LrKmFRSTmytgd74HNTPPwCQwfE0BeaK9U9lYszjxb7l3Fynu0MaQYpxwogtQIAD1e5qgk9G_M9YFnihYxuw" autocomplete="off" />
 
     <div class="field">
       <label class="control-label" for="user_email">Email</label><br>

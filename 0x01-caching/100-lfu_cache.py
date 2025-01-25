@@ -63,6 +63,9 @@ class LFUCache(BaseCaching):
             return None
 
         self.freq_map[key] += 1
+        if self.freq_map[key] not in self.order_map:
+            self.order_map[self.freq_map[key]] = []
+
         self.order_map[self.freq_map[key]].append(key)
         return self.cache_data[key]
 

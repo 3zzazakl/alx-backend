@@ -78,9 +78,20 @@ class LFUCache(BaseCaching):
         """
         min_freq = min(self.freq_map.values())
         lfu_keys = self.order_map[min_freq]
-        key_to_evict = lfu_keys.pop()
+        key_to_evict = lfu_keys.pop(0)
 
         del self.cache_data[key_to_evict]
         del self.freq_map[key_to_evict]
 
         print(f"DISCARD: {key_to_evict}")
+
+    def print_cache(self):
+        """summary_line
+
+        Keyword arguments:
+        argument -- description
+        Return: return_description
+        """
+        print("Current cache:")
+        for key, value in self.cache_data.items():
+            print(f"{key}: {value}")

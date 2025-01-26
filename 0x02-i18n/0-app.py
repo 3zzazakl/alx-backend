@@ -13,4 +13,11 @@ def index() -> str:
 
 
 if __name__ == "__main__":
+    """summary_line
+
+    Keyword arguments:
+    argument -- description
+    Return: return_description
+    """
+
     app.run(port="5000", host="0.0.0.0", debug=True)

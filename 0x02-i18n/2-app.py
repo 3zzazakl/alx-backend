@@ -5,7 +5,6 @@ Keyword arguments:
 argument -- description
 Return: return_description
 """
-
 from flask import Flask, render_template, request
 from flask_babel import Babel, _
 
@@ -64,11 +63,4 @@ def index():
 
 
 if __name__ == '__main__':
-    """summary_line
-
-    Keyword arguments:
-    argument -- description
-    Return: return_description
-    """
-
     app.run(debug=True)
